@@ -9,7 +9,7 @@ on:
       - main
 jobs:
   test:
-    runs-on: ubuntu-lateset
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [19.x, 20.x, 22.x]
